@@ -1,0 +1,5 @@
+n = input('Digite seu nome: ')
+print(f'Seu nome em maiúsculas é {n.upper()}.')
+print(f'Seu nome em minúsculas é {n.lower()}.')
+print(f'Seu nome tem {len(n) - n.count(" ")} letras.')
+print(f'Seu primeiro nome tem {len(n.split()[0])} letras.')

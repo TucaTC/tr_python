@@ -4,4 +4,4 @@ a3 = input('Nome do terceiro aluno: ')
 a4 = input('Nome do quarto aluno: ')
 import random
 l = [a1, a2, a3, a4]
-print(f'O aluno escolhido foi {random.choice(l)}.')
+print(f'A ordem dos alunos é: {random.sample(l, k=4)}.')
